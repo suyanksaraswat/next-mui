@@ -13,7 +13,7 @@ const typography = {
   h1: {
     fontWeight: 700,
     lineHeight: 80 / 64,
-    fontSize: pxToRem(40),
+    fontSize: pxToRem(30),
     letterSpacing: 2,
     fontFamily: "Syne, sans-serif",
     ...responsiveFontSizes({ sm: 52, md: 58, lg: 64 }),

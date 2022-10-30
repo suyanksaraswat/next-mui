@@ -14,3 +14,13 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.react-stacked-center-carousel {
+  height: 400px !important;
+}
+
+@media only screen and (max-width: 500px) {
+  .react-stacked-center-carousel {
+    height: 320px !important;
+  }
+}

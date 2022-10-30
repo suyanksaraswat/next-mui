@@ -57,14 +57,14 @@ const ConnectWallet = ({ isMobile, size }: ConnectWalletProps) => {
                 onClose={handleClose}
                 sx={{ zIndex: 100 }}
               >
-                <MenuItem
+                {/* <MenuItem
                   onClick={() => {
                     router.push(`/profile/${data?.address}`);
                     handleClose();
                   }}
                 >
                   Profile
-                </MenuItem>
+                </MenuItem> */}
                 <MenuItem
                   onClick={() => {
                     disconnect();
