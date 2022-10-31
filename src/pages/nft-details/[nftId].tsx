@@ -4,18 +4,23 @@ import { useRouter } from "next/router";
 import StaticNftDetails from "../../components/StaticNftDetails";
 import Page from "../../ui-library/components/Page";
 import Layout from "../../ui-library/layout/Layout";
+import { staticNftData } from "../../utils/constants";
 
 const Home: NextPage = () => {
   const router = useRouter();
   const { nftId } = router.query;
 
+  const staticRoutes = Object.keys(staticNftData);
+
   return (
     <Page title="MADverse">
       <Layout>
         <Container sx={{ position: "relative" }}>
-          <StaticNftDetails
-            nftId={nftId?.toString() || ""}
-          />
+          {nftId && staticRoutes.includes(nftId?.toString()) ? (
+            <StaticNftDetails nftId={nftId?.toString() || ""} />
+          ) : (
+            <StaticNftDetails nftId={nftId?.toString() || ""} />
+          )}
         </Container>
       </Layout>
     </Page>

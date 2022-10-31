@@ -7,7 +7,7 @@ export default function TrendingCollections() {
   const router = useRouter();
   const [trendingCollections] = useState<any>([
     {
-      _id: "maar-sutteya",
+      _id: "63517f1b6f535b65bc2dc7fe",
       user_id: {
         first_name: "Gajendra",
         last_name: "Verma",

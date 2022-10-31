@@ -11,9 +11,9 @@ const ICON_SIZE = {
 
 const menuConfig = [
   {
-    title: "Home",
+    title: "Shoutouts",
     icon: <HomeIcon {...ICON_SIZE} />,
-    path: "/",
+    path: "https://www.heyheyglobal.com/",
   },
   {
     title: "About us",

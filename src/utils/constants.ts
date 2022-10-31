@@ -15,7 +15,7 @@ export const staticCollectionData = {
       },
     ],
     perks_description:
-      "Get a chance to own a piece of exquisite art created in association with The Olive Group and a collection of artists across multiple mediums.",
+      "<ul><li>Get a chance to own a piece of exquisite art created in association with The Olive Group and a collection of artists across multiple mediums.</li></ul>",
     banners: [
       {
         file: "https://hey-nft.s3.ap-south-1.amazonaws.com/Olive+NFTs/Narendra+Kumar/1.mp4",
@@ -25,6 +25,7 @@ export const staticCollectionData = {
       },
     ],
     createdAt: "2022-05-20T06:07:29.496Z",
+    nftsLength: 6,
     nfts: [
       {
         _id: "one-mumbai",
@@ -97,13 +98,14 @@ export const staticCollectionData = {
       },
     ],
     perks_description:
-      "<div>The Silver NFT is your gatepass to the world of Sunny Leone and provides access to private Discord server with directly with Sunny Leone and other NFT holders. This NFT will have unique set of symbols and numbers which will act as your game card in the &apos;I dream of Sunny&apos; game wherein each week, a random combination of cards and symbols will win something exciting. Some amazing utilities you can unlock are: <ul><li>Skydiving experience with Sunny Leone.</li><li>Dinner with Sunny Leone</li><li>Zoom Call with Sunny Leone</li><li>Insta Live with Sunny Leone.</li><li>Shoutout from Sunny Leone on her official social media handles</li><li>And many more such utilities.</li></ul></div>",
+      "<div><div>Some amazing utilities you can unlock are:</div> <br /><ul><li>Skydiving experience with Sunny Leone.</li><li>Dinner with Sunny Leone</li><li>Zoom Call with Sunny Leone</li><li>Insta Live with Sunny Leone.</li><li>Shoutout from Sunny Leone on her official social media handles</li><li>And many more such utilities.</li></ul></div>",
     banners: [
       {
         file: "https://hey-nft.s3.ap-south-1.amazonaws.com/I+Dream+of+Sunny+NFTs/1652876450278.mp4",
       },
     ],
-    createdAt: "2022-05-20T06:07:29.496Z",
+    createdAt: "2022-04-27T06:07:29.496Z",
+    nftsLength: 944,
     nfts: [
       {
         _id: "red-acid-h1",
@@ -234,7 +236,8 @@ export const staticCollectionData = {
         file: "https://hey-nft.s3.ap-south-1.amazonaws.com/nft_marketplace/banner2.mp4",
       },
     ],
-    createdAt: "2022-07-15T06:07:29.496Z",
+    createdAt: "2022-07-15T06:07:42.512Z",
+    nftsLength: 200,
     nfts: [
       {
         _id: "shabaash-mithu-1",
@@ -258,7 +261,19 @@ export const staticCollectionData = {
         description:
           "The “Shabaash Mithu” NFT is your gatepass to the world of Shabaash Mithu. Every NFT provides access to a private Discord server where participants can win exciting prizes including signed memorabilia, free movie tickets and many more! Celebrate the rise of Mithu and join her community now!",
         aws_s3_url:
-          "https://hey-nft.s3.ap-south-1.amazonaws.com/Shabaash+Mithu+NFTs+/Movie+Posters/30+x+40_Poster+01_SM_2L+(1).jpg",
+          "https://hey-nft.s3.ap-south-1.amazonaws.com/Shabaash+Mithu+NFTs+/Movie+Posters/30x40_Achievements_SM+(1).jpg",
+      },
+      {
+        _id: "shabaash-mithu-3",
+        user_id: {
+          web3_address: "0xACF8c4544E35e4cAbeA262892F4536d9bE6f44ee",
+        },
+        collection_address: "0x420bf942b1bff0e4a660391150156d389310ec2f",
+        name: "Shabaash Mithu: Movie Poster 3",
+        description:
+          "The “Shabaash Mithu” NFT is your gatepass to the world of Shabaash Mithu. Every NFT provides access to a private Discord server where participants can win exciting prizes including signed memorabilia, free movie tickets and many more! Celebrate the rise of Mithu and join her community now!",
+        aws_s3_url:
+          "https://hey-nft.s3.ap-south-1.amazonaws.com/Shabaash+Mithu+NFTs+/Movie+Posters/30x40_Big+Face+Cricket_SM-2L+(1).jpg",
       },
     ],
   },
@@ -283,7 +298,8 @@ export const staticCollectionData = {
         _id: "63159221f17ebfedb1e44178",
       },
     ],
-    perks_description: "Exclusive merchandise to be claimed at Collide!",
+    perks_description:
+      "<ul><li>Exclusive merchandise to be claimed at Collide!</li></ul>",
     banners: [
       {
         file: "https://hey-nft.s3.ap-south-1.amazonaws.com/Viral+Fission/Viral+Fission+'Collide'+NFT.gif",
@@ -291,7 +307,8 @@ export const staticCollectionData = {
           "https://hey-nft.s3.ap-south-1.amazonaws.com/Viral+Fission/Collide_Vertical+NFT.gif",
       },
     ],
-    createdAt: "2022-07-15T06:07:29.496Z",
+    createdAt: "2022-10-01T06:07:29.496Z",
+    nftsLength: 200,
     nfts: [
       {
         _id: "collide",
@@ -321,7 +338,7 @@ export const staticNftData = {
     aws_s3_url:
       "https://hey-nft.s3.ap-south-1.amazonaws.com/Olive+NFTs/One+at+Mumabi/One+at+Mumbai.png",
     perks_description:
-      "Get a chance to own a piece of exquisite art created in association with The Olive Group and a collection of artists across multiple mediums.",
+      "<ul><li>Get a chance to own a piece of exquisite art created in association with The Olive Group and a collection of artists across multiple mediums.</li></ul>",
     metadata: "",
     createdAt: "2022-09-05T06:07:42.512Z",
   },
@@ -335,7 +352,7 @@ export const staticNftData = {
     aws_s3_url:
       "https://hey-nft.s3.ap-south-1.amazonaws.com/Olive+NFTs/Kshitij+Kankaria/Kshitij+Kankaria.png",
     perks_description:
-      "Get a chance to own a piece of exquisite art created in association with The Olive Group and a collection of artists across multiple mediums.",
+      "<ul><li>Get a chance to own a piece of exquisite art created in association with The Olive Group and a collection of artists across multiple mediums.</li></ul>",
     metadata: "",
     createdAt: "2022-09-05T06:07:42.512Z",
   },
@@ -349,7 +366,7 @@ export const staticNftData = {
     aws_s3_url:
       "https://hey-nft.s3.ap-south-1.amazonaws.com/Olive+NFTs/Narendra+Kumar/1.png",
     perks_description:
-      "Get a chance to own a piece of exquisite art created in association with The Olive Group and a collection of artists across multiple mediums.",
+      "<ul><li>Get a chance to own a piece of exquisite art created in association with The Olive Group and a collection of artists across multiple mediums.</li></ul>",
     metadata: "",
     createdAt: "2022-09-05T06:07:42.512Z",
   },
@@ -363,7 +380,7 @@ export const staticNftData = {
     aws_s3_url:
       "https://hey-nft.s3.ap-south-1.amazonaws.com/Olive+NFTs/We+Are+Actors/rahul-bose.png",
     perks_description:
-      "Get a chance to own a piece of exquisite art created in association with The Olive Group and a collection of artists across multiple mediums.",
+      "<ul><li>Get a chance to own a piece of exquisite art created in association with The Olive Group and a collection of artists across multiple mediums.</li></ul>",
     metadata: "",
     createdAt: "2022-09-05T06:07:42.512Z",
   },
@@ -379,7 +396,7 @@ export const staticNftData = {
     aws_s3_url:
       "https://hey-nft.s3.ap-south-1.amazonaws.com/I+Dream+of+Sunny+NFTs/Red+Acid/1+00_00_00-00_00_30~2.gif",
     perks_description:
-      "<div>The Silver NFT is your gatepass to the world of Sunny Leone and provides access to private Discord server with directly with Sunny Leone and other NFT holders. This NFT will have unique set of symbols and numbers which will act as your game card in the &apos;I dream of Sunny&apos; game wherein each week, a random combination of cards and symbols will win something exciting. Some amazing utilities you can unlock are: <ul><li>Skydiving experience with Sunny Leone.</li><li>Dinner with Sunny Leone</li><li>Zoom Call with Sunny Leone</li><li>Insta Live with Sunny Leone.</li><li>Shoutout from Sunny Leone on her official social media handles</li><li>And many more such utilities.</li></ul></div>",
+      "<div><div>Some amazing utilities you can unlock are:</div> <br /><ul><li>Skydiving experience with Sunny Leone.</li><li>Dinner with Sunny Leone</li><li>Zoom Call with Sunny Leone</li><li>Insta Live with Sunny Leone.</li><li>Shoutout from Sunny Leone on her official social media handles</li><li>And many more such utilities.</li></ul></div>",
     metadata: "",
     createdAt: "2022-09-05T06:07:42.512Z",
   },
@@ -393,7 +410,7 @@ export const staticNftData = {
     aws_s3_url:
       "https://hey-nft.s3.ap-south-1.amazonaws.com/I+Dream+of+Sunny+NFTs/Sea+Weed/7+00_00_00-00_00_30~1.gif",
     perks_description:
-      "<div>The Silver NFT is your gatepass to the world of Sunny Leone and provides access to private Discord server with directly with Sunny Leone and other NFT holders. This NFT will have unique set of symbols and numbers which will act as your game card in the &apos;I dream of Sunny&apos; game wherein each week, a random combination of cards and symbols will win something exciting. Some amazing utilities you can unlock are: <ul><li>Skydiving experience with Sunny Leone.</li><li>Dinner with Sunny Leone</li><li>Zoom Call with Sunny Leone</li><li>Insta Live with Sunny Leone.</li><li>Shoutout from Sunny Leone on her official social media handles</li><li>And many more such utilities.</li></ul></div>",
+      "<div><div>Some amazing utilities you can unlock are:</div> <br /><ul><li>Skydiving experience with Sunny Leone.</li><li>Dinner with Sunny Leone</li><li>Zoom Call with Sunny Leone</li><li>Insta Live with Sunny Leone.</li><li>Shoutout from Sunny Leone on her official social media handles</li><li>And many more such utilities.</li></ul></div>",
     metadata: "",
     createdAt: "2022-09-05T06:07:42.512Z",
   },
@@ -407,7 +424,7 @@ export const staticNftData = {
     aws_s3_url:
       "https://hey-nft.s3.ap-south-1.amazonaws.com/I+Dream+of+Sunny+NFTs/Supernova/8+00_00_00-00_00_30~1.gif",
     perks_description:
-      "<div>The Silver NFT is your gatepass to the world of Sunny Leone and provides access to private Discord server with directly with Sunny Leone and other NFT holders. This NFT will have unique set of symbols and numbers which will act as your game card in the &apos;I dream of Sunny&apos; game wherein each week, a random combination of cards and symbols will win something exciting. Some amazing utilities you can unlock are: <ul><li>Skydiving experience with Sunny Leone.</li><li>Dinner with Sunny Leone</li><li>Zoom Call with Sunny Leone</li><li>Insta Live with Sunny Leone.</li><li>Shoutout from Sunny Leone on her official social media handles</li><li>And many more such utilities.</li></ul></div>",
+      "<div><div>Some amazing utilities you can unlock are:</div> <br /><ul><li>Skydiving experience with Sunny Leone.</li><li>Dinner with Sunny Leone</li><li>Zoom Call with Sunny Leone</li><li>Insta Live with Sunny Leone.</li><li>Shoutout from Sunny Leone on her official social media handles</li><li>And many more such utilities.</li></ul></div>",
     metadata: "",
     createdAt: "2022-09-05T06:07:42.512Z",
   },
@@ -421,7 +438,7 @@ export const staticNftData = {
     aws_s3_url:
       "https://hey-nft.s3.ap-south-1.amazonaws.com/I+Dream+of+Sunny+NFTs/Standstorm/6+00_00_00-00_00_30~2.gif",
     perks_description:
-      "<div>The Silver NFT is your gatepass to the world of Sunny Leone and provides access to private Discord server with directly with Sunny Leone and other NFT holders. This NFT will have unique set of symbols and numbers which will act as your game card in the &apos;I dream of Sunny&apos; game wherein each week, a random combination of cards and symbols will win something exciting. Some amazing utilities you can unlock are: <ul><li>Skydiving experience with Sunny Leone.</li><li>Dinner with Sunny Leone</li><li>Zoom Call with Sunny Leone</li><li>Insta Live with Sunny Leone.</li><li>Shoutout from Sunny Leone on her official social media handles</li><li>And many more such utilities.</li></ul></div>",
+      "<div><div>Some amazing utilities you can unlock are:</div> <br /><ul><li>Skydiving experience with Sunny Leone.</li><li>Dinner with Sunny Leone</li><li>Zoom Call with Sunny Leone</li><li>Insta Live with Sunny Leone.</li><li>Shoutout from Sunny Leone on her official social media handles</li><li>And many more such utilities.</li></ul></div>",
     metadata: "",
     createdAt: "2022-09-05T06:07:42.512Z",
   },
@@ -435,7 +452,7 @@ export const staticNftData = {
     aws_s3_url:
       "https://hey-nft.s3.ap-south-1.amazonaws.com/I+Dream+of+Sunny+NFTs/Holi/5+00_00_00-00_00_30~1.gif",
     perks_description:
-      "<div>The Silver NFT is your gatepass to the world of Sunny Leone and provides access to private Discord server with directly with Sunny Leone and other NFT holders. This NFT will have unique set of symbols and numbers which will act as your game card in the &apos;I dream of Sunny&apos; game wherein each week, a random combination of cards and symbols will win something exciting. Some amazing utilities you can unlock are: <ul><li>Skydiving experience with Sunny Leone.</li><li>Dinner with Sunny Leone</li><li>Zoom Call with Sunny Leone</li><li>Insta Live with Sunny Leone.</li><li>Shoutout from Sunny Leone on her official social media handles</li><li>And many more such utilities.</li></ul></div>",
+      "<div><div>Some amazing utilities you can unlock are:</div> <br /><ul><li>Skydiving experience with Sunny Leone.</li><li>Dinner with Sunny Leone</li><li>Zoom Call with Sunny Leone</li><li>Insta Live with Sunny Leone.</li><li>Shoutout from Sunny Leone on her official social media handles</li><li>And many more such utilities.</li></ul></div>",
     metadata: "",
     createdAt: "2022-09-05T06:07:42.512Z",
   },
@@ -449,7 +466,7 @@ export const staticNftData = {
     aws_s3_url:
       "https://hey-nft.s3.ap-south-1.amazonaws.com/I+Dream+of+Sunny+NFTs/Scattered+Clouds/4+00_00_00-00_00_30~2.gif",
     perks_description:
-      "<div>The Silver NFT is your gatepass to the world of Sunny Leone and provides access to private Discord server with directly with Sunny Leone and other NFT holders. This NFT will have unique set of symbols and numbers which will act as your game card in the &apos;I dream of Sunny&apos; game wherein each week, a random combination of cards and symbols will win something exciting. Some amazing utilities you can unlock are: <ul><li>Skydiving experience with Sunny Leone.</li><li>Dinner with Sunny Leone</li><li>Zoom Call with Sunny Leone</li><li>Insta Live with Sunny Leone.</li><li>Shoutout from Sunny Leone on her official social media handles</li><li>And many more such utilities.</li></ul></div>",
+      "<div><div>Some amazing utilities you can unlock are:</div> <br /><ul><li>Skydiving experience with Sunny Leone.</li><li>Dinner with Sunny Leone</li><li>Zoom Call with Sunny Leone</li><li>Insta Live with Sunny Leone.</li><li>Shoutout from Sunny Leone on her official social media handles</li><li>And many more such utilities.</li></ul></div>",
     metadata: "",
     createdAt: "2022-09-05T06:07:42.512Z",
   },
@@ -463,7 +480,7 @@ export const staticNftData = {
     aws_s3_url:
       "https://hey-nft.s3.ap-south-1.amazonaws.com/I+Dream+of+Sunny+NFTs/Joker/exodus.gif",
     perks_description:
-      "<div>The Silver NFT is your gatepass to the world of Sunny Leone and provides access to private Discord server with directly with Sunny Leone and other NFT holders. This NFT will have unique set of symbols and numbers which will act as your game card in the &apos;I dream of Sunny&apos; game wherein each week, a random combination of cards and symbols will win something exciting. Some amazing utilities you can unlock are: <ul><li>Skydiving experience with Sunny Leone.</li><li>Dinner with Sunny Leone</li><li>Zoom Call with Sunny Leone</li><li>Insta Live with Sunny Leone.</li><li>Shoutout from Sunny Leone on her official social media handles</li><li>And many more such utilities.</li></ul></div>",
+      "<div><div>Some amazing utilities you can unlock are:</div> <br /><ul><li>Skydiving experience with Sunny Leone.</li><li>Dinner with Sunny Leone</li><li>Zoom Call with Sunny Leone</li><li>Insta Live with Sunny Leone.</li><li>Shoutout from Sunny Leone on her official social media handles</li><li>And many more such utilities.</li></ul></div>",
     metadata: "",
     createdAt: "2022-09-05T06:07:42.512Z",
   },
@@ -477,7 +494,7 @@ export const staticNftData = {
     aws_s3_url:
       "https://hey-nft.s3.ap-south-1.amazonaws.com/I+Dream+of+Sunny+NFTs/Joker/Spooky.gif",
     perks_description:
-      "<div>The Silver NFT is your gatepass to the world of Sunny Leone and provides access to private Discord server with directly with Sunny Leone and other NFT holders. This NFT will have unique set of symbols and numbers which will act as your game card in the &apos;I dream of Sunny&apos; game wherein each week, a random combination of cards and symbols will win something exciting. Some amazing utilities you can unlock are: <ul><li>Skydiving experience with Sunny Leone.</li><li>Dinner with Sunny Leone</li><li>Zoom Call with Sunny Leone</li><li>Insta Live with Sunny Leone.</li><li>Shoutout from Sunny Leone on her official social media handles</li><li>And many more such utilities.</li></ul></div>",
+      "<div><div>Some amazing utilities you can unlock are:</div> <br /><ul><li>Skydiving experience with Sunny Leone.</li><li>Dinner with Sunny Leone</li><li>Zoom Call with Sunny Leone</li><li>Insta Live with Sunny Leone.</li><li>Shoutout from Sunny Leone on her official social media handles</li><li>And many more such utilities.</li></ul></div>",
     metadata: "",
     createdAt: "2022-09-05T06:07:42.512Z",
   },
@@ -495,7 +512,7 @@ export const staticNftData = {
     perks_description:
       "<div>Own a unique NFT from the biopic celebrating the career and life of Indian Cricketing Legend, Mithali Raj, played onscreen by Taapsee Pannu. NFT holders can: <ul><li>Be part of the general discord and converse with hundreds ofother likeminded fans of the film.</li><li>Get a chance to win a bat signed by Mithali Raj, Taapsee Pannu &other members involved in the film directed by Srijit Mukherji.</li><li>Enter contests and raffles for exclusive prizes.</li></ul></div>",
     metadata: "",
-    createdAt: "2022-09-05T06:07:42.512Z",
+    createdAt: "2022-07-15T06:07:42.512Z",
   },
   "shabaash-mithu-2": {
     user_id: {
@@ -505,11 +522,25 @@ export const staticNftData = {
     description:
       "The “Shabaash Mithu” NFT is your gatepass to the world of Shabaash Mithu. Every NFT provides access to a private Discord server where participants can win exciting prizes including signed memorabilia, free movie tickets and many more! Celebrate the rise of Mithu and join her community now!",
     aws_s3_url:
-      "https://hey-nft.s3.ap-south-1.amazonaws.com/Shabaash+Mithu+NFTs+/Movie+Posters/30+x+40_Poster+01_SM_2L+(1).jpg",
+      "https://hey-nft.s3.ap-south-1.amazonaws.com/Shabaash+Mithu+NFTs+/Movie+Posters/30x40_Achievements_SM+(1).jpg",
     perks_description:
       "<div>Own a unique NFT from the biopic celebrating the career and life of Indian Cricketing Legend, Mithali Raj, played onscreen by Taapsee Pannu. NFT holders can: <ul><li>Be part of the general discord and converse with hundreds ofother likeminded fans of the film.</li><li>Get a chance to win a bat signed by Mithali Raj, Taapsee Pannu &other members involved in the film directed by Srijit Mukherji.</li><li>Enter contests and raffles for exclusive prizes.</li></ul></div>",
     metadata: "",
-    createdAt: "2022-09-05T06:07:42.512Z",
+    createdAt: "2022-07-15T06:07:42.512Z",
+  },
+  "shabaash-mithu-3": {
+    user_id: {
+      web3_address: "0xACF8c4544E35e4cAbeA262892F4536d9bE6f44ee",
+    },
+    name: "Shabaash Mithu: Movie Poster 3",
+    description:
+      "The “Shabaash Mithu” NFT is your gatepass to the world of Shabaash Mithu. Every NFT provides access to a private Discord server where participants can win exciting prizes including signed memorabilia, free movie tickets and many more! Celebrate the rise of Mithu and join her community now!",
+    aws_s3_url:
+      "https://hey-nft.s3.ap-south-1.amazonaws.com/Shabaash+Mithu+NFTs+/Movie+Posters/30x40_Big+Face+Cricket_SM-2L+(1).jpg",
+    perks_description:
+      "<div>Own a unique NFT from the biopic celebrating the career and life of Indian Cricketing Legend, Mithali Raj, played onscreen by Taapsee Pannu. NFT holders can: <ul><li>Be part of the general discord and converse with hundreds ofother likeminded fans of the film.</li><li>Get a chance to win a bat signed by Mithali Raj, Taapsee Pannu &other members involved in the film directed by Srijit Mukherji.</li><li>Enter contests and raffles for exclusive prizes.</li></ul></div>",
+    metadata: "",
+    createdAt: "2022-07-15T06:07:42.512Z",
   },
 
   // collide
@@ -522,47 +553,9 @@ export const staticNftData = {
       "Welcome to Collide! Where art and culture take new shapes and forms through competitive experiences and events. Be a part of the festival of the year with over 200 of India's top colleges at a 2-day event set to be hosted in Mumbai, with over 15 competitive events and 15K participants. Hold up, there's more. Watch Collide turn into a stellar concert experience featuring Nucleya, Gully Gang, comedian Biswa, Sumukhi & many more!",
     aws_s3_url:
       "https://hey-nft.s3.ap-south-1.amazonaws.com/Viral+Fission/Thumbnail+NFT.png",
-    perks_description: "Exclusive merchandise to be claimed at Collide!",
+    perks_description:
+      "<ul><li>Exclusive merchandise to be claimed at Collide!</li></ul>",
     metadata: "",
     createdAt: "2022-09-05T06:07:42.512Z",
   },
 };
-//   if (collectionId === "viral-fission") {
-//     setCollectionDetails({
-//       _id: "CollideNFT",
-//       user_id: {
-//         first_name: "Viral",
-//         last_name: "Fission",
-//       },
-//       name: "Collide",
-//       description:
-//         "Welcome to Collide! A massive Youth Fest for the entire college community in the country. A 2-day event set to be hosted in Mumbai, with over 15 competitive events and 15K+ participants. By sunset, Collide turns into a stellar concert, featuring Nucleya, Gully Gang and countries top comedians! Claim the NFT before 8th October 2022 11:59PM and to avail the benefits make sure you show this NFT Offline with a valid College ID card",
-//       link: [
-//         {
-//           platform: "instagram",
-//           url: "https://www.instagram.com/viral.fission/",
-//           _id: "63159221f17ebfedb1e44178",
-//         },
-//         {
-//           platform: "website",
-//           url: "https://collide.viralfission.com/",
-//           _id: "63159221f17ebfedb1e44178",
-//         },
-//       ],
-//       blockchain_network: "eth_rinkeby",
-//       is_deployed: true,
-//       perks_description: "Exclusive merchandise to be claimed at Collide!",
-//       banners: [
-//         {
-//           file: "https://hey-nft.s3.ap-south-1.amazonaws.com/Viral+Fission/Viral+Fission+'Collide'+NFT.gif",
-//           mobileFile:
-//             "https://hey-nft.s3.ap-south-1.amazonaws.com/Viral+Fission/Collide_Vertical+NFT.gif",
-//         },
-//       ],
-//       category: [],
-//       createdAt: "2022-09-29T06:07:29.496Z",
-//       updatedAt: "2022-09-29T06:07:38.529Z",
-//       __v: 0,
-//     });
-//     return;
-//   }

@@ -1,6 +1,16 @@
 import { useEffect, useState } from "react";
 import Image from "next/image";
-import { Box, Button, Grid, Typography } from "@mui/material";
+import {
+  Box,
+  Button,
+  CircularProgress,
+  FormControl,
+  Grid,
+  InputLabel,
+  MenuItem,
+  Select,
+  Typography,
+} from "@mui/material";
 import CheckCircleIcon from "@mui/icons-material/CheckCircle";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import TwitterIcon from "@mui/icons-material/Twitter";
@@ -14,28 +24,91 @@ import { useRouter } from "next/router";
 import LanguageIcon from "@mui/icons-material/Language";
 import { abridgeAddress } from "../utils/abridgeAddress";
 import { staticCollectionData } from "../utils/constants";
+import { getCollectionDetails, getNftsByCollectionId } from "./api";
 
-interface StaticCollectionDetailsI {
+interface DynamicCollectionDetailsI {
   collectionId: string;
 }
 
-export default function StaticCollectionDetails({
+export default function DynamicCollectionDetails({
   collectionId,
-}: StaticCollectionDetailsI) {
+}: DynamicCollectionDetailsI) {
   const router = useRouter();
   const [collectionDetails, setCollectionDetails] = useState<any>();
   const [activeSlide, setActiveSlide] = useState<any>(0);
   const [mute, setMute] = useState<boolean>(true);
+  const [err, setErr] = useState<any>();
+  const [loading, setLoading] = useState<boolean>(false);
+  const [nfts, setNfts] = useState<any>([]);
+  const [otherNfts, setOtherNfts] = useState<any>([]);
+  const [filteredNfts, setFilteredNfts] = useState<any>([]);
+  const [type, setType] = useState("all");
+  const [filterLoading, setFilterLoading] = useState<boolean>(false);
+
+  const fetchCollectionDetails = async (id: string) => {
+    try {
+      const res: any = await getCollectionDetails(id);
+      setCollectionDetails(res?.data);
+    } catch (err: any) {
+      setErr(err?.response?.data?.error);
+    }
+  };
+
+  const fetchNfts = async (id: string) => {
+    setLoading(true);
+    try {
+      const res: any = await getNftsByCollectionId({
+        collection_id: id,
+        limit: 100,
+      });
+
+      if (collectionId === "63517f1b6f535b65bc2dc7fe") {
+        setOtherNfts([...res.data]);
+        setFilteredNfts([...res.data]);
+      } else {
+        setNfts([...res.data]);
+      }
+      setLoading(false);
+    } catch (err: any) {
+      setErr(err?.response?.data?.error);
+      setLoading(false);
+    }
+  };
 
   useEffect(() => {
-    if (
-      staticCollectionData[collectionId as keyof typeof staticCollectionData]
-    ) {
-      setCollectionDetails(
-        staticCollectionData[collectionId as keyof typeof staticCollectionData]
-      );
+    if (collectionId) {
+      fetchCollectionDetails(collectionId);
+      fetchNfts(collectionId);
     }
   }, [collectionId]);
+
+  useEffect(() => {
+    setFilterLoading(true);
+    if (type === "all") {
+      setFilteredNfts([...otherNfts]);
+    } else if (type === "aplha") {
+      setFilteredNfts(
+        otherNfts?.filter(
+          (res: any) =>
+            res.name === "Maar Sutteya Alpha 1" ||
+            res.name === "Maar Sutteya Alpha 2" ||
+            res.name === "Maar Sutteya Alpha 3" ||
+            res.name === "Maar Sutteya Alpha 4" ||
+            res.name === "Maar Sutteya Alpha 5"
+        )
+      );
+    } else if (type === "supreme") {
+      setFilteredNfts(
+        otherNfts?.filter(
+          (res: any) =>
+            res.name === "Maar Sutteya Supreme 1" ||
+            res.name === "Maar Sutteya Supreme 2" ||
+            res.name === "Maar Sutteya Supreme 3"
+        )
+      );
+    }
+    setFilterLoading(false);
+  }, [type]);
 
   return (
     <div>
@@ -340,11 +413,14 @@ export default function StaticCollectionDetails({
                     </Typography>
                   </Box>
                 </Box>
-                {(collectionId === "shabaash-mithu" ||
-                  collectionId === "viral-fission") && (
+                {collectionId === "63517f1b6f535b65bc2dc7fe" && (
                   <Box display="flex" mt={2}>
-                    <Button fullWidth disabled>
-                      Claimed out
+                    <Button
+                      fullWidth
+                      variant="contained"
+                      onClick={() => router.push("/free-nft/maar-sutteya")}
+                    >
+                      Claim free NFT
                     </Button>
                   </Box>
                 )}
@@ -365,16 +441,51 @@ export default function StaticCollectionDetails({
             </Box>
           </Box>
 
-          {collectionDetails?.nfts?.length > 0 && (
-            <Box width="100%" mt={4}>
-              <Box mb={4}>
-                <Typography variant="h5" sx={{ fontFamily: "Syne" }}>
-                  NFT Collection
-                </Typography>
-              </Box>
+          <Box width="100%" mt={6}>
+            <Box
+              mb={4}
+              display="flex"
+              justifyContent="space-between"
+              alignItems="center"
+            >
+              <Typography variant="h5" sx={{ fontFamily: "Syne" }}>
+                Premium NFTs
+              </Typography>
+              <FormControl
+                sx={{
+                  minWidth: 100,
+                  div: {
+                    color: "white !important",
+                  },
+                  svg: {
+                    color: "white !important",
+                  },
+                  label: {
+                    color: "white !important",
+                  },
+                  fieldset: {
+                    borderColor: "white !important",
+                  },
+                }}
+              >
+                <InputLabel>Type</InputLabel>
+                <Select
+                  value={type}
+                  label="Type"
+                  onChange={(e) => setType(e.target.value as string)}
+                >
+                  <MenuItem value={"all"}>All</MenuItem>
+                  <MenuItem value={"aplha"}>Aplha</MenuItem>
+                  <MenuItem value={"supreme"}>Supreme</MenuItem>
+                </Select>
+              </FormControl>
+            </Box>
 
+            {filterLoading ? (
+              <CircularProgress />
+            ) : (
               <Grid container spacing={3} alignItems="center">
-                {collectionDetails?.nfts?.map((res: any, idx: number) => (
+                {filteredNfts?.map((res: any, idx: number) => (
                   <Grid item xl={3} lg={3} md={4} sm={6} xs={12} key={idx}>
                     <NftCard
                       name={res?.name}
@@ -393,8 +504,8 @@ export default function StaticCollectionDetails({
                   </Grid>
                 ))}
               </Grid>
-            </Box>
-          )}
+            )}
+          </Box>
         </Box>
       </Box>
     </div>
