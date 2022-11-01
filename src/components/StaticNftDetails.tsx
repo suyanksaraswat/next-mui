@@ -31,6 +31,10 @@ export default function StaticNftDetails({ nftId }: StaticNftDetailsI) {
 
   useEffect(() => {
     if (staticNftData[nftId as keyof typeof staticNftData]) {
+      console.log(
+        "### nftId-",
+        staticNftData[nftId as keyof typeof staticNftData].metadata
+      );
       setNftDetails(staticNftData[nftId as keyof typeof staticNftData]);
     }
   }, [nftId]);

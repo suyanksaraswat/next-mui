@@ -18,7 +18,7 @@ const menuConfig = [
   {
     title: "About us",
     icon: <InfoIcon {...ICON_SIZE} />,
-    path: "/about-us",
+    path: "/about",
   },
   {
     title: "Team",

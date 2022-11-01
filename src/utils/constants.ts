@@ -397,7 +397,8 @@ export const staticNftData = {
       "https://hey-nft.s3.ap-south-1.amazonaws.com/I+Dream+of+Sunny+NFTs/Red+Acid/1+00_00_00-00_00_30~2.gif",
     perks_description:
       "<div><div>Some amazing utilities you can unlock are:</div> <br /><ul><li>Skydiving experience with Sunny Leone.</li><li>Dinner with Sunny Leone</li><li>Zoom Call with Sunny Leone</li><li>Insta Live with Sunny Leone.</li><li>Shoutout from Sunny Leone on her official social media handles</li><li>And many more such utilities.</li></ul></div>",
-    metadata: "",
+    metadata:
+      '[{"trait_type": "BACKGROUND","value": "Red Acid"}, {"trait_type": "NUMBER","value": "A"}, {"trait_type": "OUTFIT","value": "Blue"}, {"trait_type": "SYMBOL","value": "Heart"}]',
     createdAt: "2022-09-05T06:07:42.512Z",
   },
   "sea-weed-d7": {
@@ -411,7 +412,8 @@ export const staticNftData = {
       "https://hey-nft.s3.ap-south-1.amazonaws.com/I+Dream+of+Sunny+NFTs/Sea+Weed/7+00_00_00-00_00_30~1.gif",
     perks_description:
       "<div><div>Some amazing utilities you can unlock are:</div> <br /><ul><li>Skydiving experience with Sunny Leone.</li><li>Dinner with Sunny Leone</li><li>Zoom Call with Sunny Leone</li><li>Insta Live with Sunny Leone.</li><li>Shoutout from Sunny Leone on her official social media handles</li><li>And many more such utilities.</li></ul></div>",
-    metadata: "",
+    metadata:
+      '[{"trait_type": "BACKGROUND","value": "Sea Weed"}, {"trait_type": "NUMBER","value": "7"}, {"trait_type": "OUTFIT","value": "Thistle Green"}, {"trait_type": "SYMBOL","value": "Diamond"}]',
     createdAt: "2022-09-05T06:07:42.512Z",
   },
   "supernova-d7": {
@@ -425,7 +427,8 @@ export const staticNftData = {
       "https://hey-nft.s3.ap-south-1.amazonaws.com/I+Dream+of+Sunny+NFTs/Supernova/8+00_00_00-00_00_30~1.gif",
     perks_description:
       "<div><div>Some amazing utilities you can unlock are:</div> <br /><ul><li>Skydiving experience with Sunny Leone.</li><li>Dinner with Sunny Leone</li><li>Zoom Call with Sunny Leone</li><li>Insta Live with Sunny Leone.</li><li>Shoutout from Sunny Leone on her official social media handles</li><li>And many more such utilities.</li></ul></div>",
-    metadata: "",
+    metadata:
+      '[{"trait_type": "BACKGROUND","value": "Supernova"}, {"trait_type": "NUMBER","value": "8"}, {"trait_type": "OUTFIT","value": "Fluorescent Green"}, {"trait_type": "SYMBOL","value": "Diamond"}]',
     createdAt: "2022-09-05T06:07:42.512Z",
   },
   "sandstorm-h6": {
@@ -439,7 +442,8 @@ export const staticNftData = {
       "https://hey-nft.s3.ap-south-1.amazonaws.com/I+Dream+of+Sunny+NFTs/Standstorm/6+00_00_00-00_00_30~2.gif",
     perks_description:
       "<div><div>Some amazing utilities you can unlock are:</div> <br /><ul><li>Skydiving experience with Sunny Leone.</li><li>Dinner with Sunny Leone</li><li>Zoom Call with Sunny Leone</li><li>Insta Live with Sunny Leone.</li><li>Shoutout from Sunny Leone on her official social media handles</li><li>And many more such utilities.</li></ul></div>",
-    metadata: "",
+    metadata:
+      '[{"trait_type": "BACKGROUND","value": "Sandstorm"}, {"trait_type": "NUMBER","value": "6"}, {"trait_type": "OUTFIT","value": "Blood Red"}, {"trait_type": "SYMBOL","value": "Heart"}]',
     createdAt: "2022-09-05T06:07:42.512Z",
   },
   "holi-d5": {
@@ -453,7 +457,8 @@ export const staticNftData = {
       "https://hey-nft.s3.ap-south-1.amazonaws.com/I+Dream+of+Sunny+NFTs/Holi/5+00_00_00-00_00_30~1.gif",
     perks_description:
       "<div><div>Some amazing utilities you can unlock are:</div> <br /><ul><li>Skydiving experience with Sunny Leone.</li><li>Dinner with Sunny Leone</li><li>Zoom Call with Sunny Leone</li><li>Insta Live with Sunny Leone.</li><li>Shoutout from Sunny Leone on her official social media handles</li><li>And many more such utilities.</li></ul></div>",
-    metadata: "",
+    metadata:
+      '[{"trait_type": "BACKGROUND","value": "Holi"}, {"trait_type": "NUMBER","value": "5"}, {"trait_type": "OUTFIT","value": "Azure Blue"}, {"trait_type": "SYMBOL","value": "Diamond"}]',
     createdAt: "2022-09-05T06:07:42.512Z",
   },
   "scattered-clouds-h4": {
@@ -467,7 +472,8 @@ export const staticNftData = {
       "https://hey-nft.s3.ap-south-1.amazonaws.com/I+Dream+of+Sunny+NFTs/Scattered+Clouds/4+00_00_00-00_00_30~2.gif",
     perks_description:
       "<div><div>Some amazing utilities you can unlock are:</div> <br /><ul><li>Skydiving experience with Sunny Leone.</li><li>Dinner with Sunny Leone</li><li>Zoom Call with Sunny Leone</li><li>Insta Live with Sunny Leone.</li><li>Shoutout from Sunny Leone on her official social media handles</li><li>And many more such utilities.</li></ul></div>",
-    metadata: "",
+    metadata:
+      '[{"trait_type": "BACKGROUND","value": "Scattered Clouds"}, {"trait_type": "NUMBER","value": "4"}, {"trait_type": "OUTFIT","value": "Sea Blue"}, {"trait_type": "SYMBOL","value": "Heart"}]',
     createdAt: "2022-09-05T06:07:42.512Z",
   },
   "joker-exodus": {
@@ -481,7 +487,7 @@ export const staticNftData = {
       "https://hey-nft.s3.ap-south-1.amazonaws.com/I+Dream+of+Sunny+NFTs/Joker/exodus.gif",
     perks_description:
       "<div><div>Some amazing utilities you can unlock are:</div> <br /><ul><li>Skydiving experience with Sunny Leone.</li><li>Dinner with Sunny Leone</li><li>Zoom Call with Sunny Leone</li><li>Insta Live with Sunny Leone.</li><li>Shoutout from Sunny Leone on her official social media handles</li><li>And many more such utilities.</li></ul></div>",
-    metadata: "",
+    metadata: '[{"trait_type": "BACKGROUND","value": "Exodus"}]',
     createdAt: "2022-09-05T06:07:42.512Z",
   },
   "joker-halloween": {
@@ -495,7 +501,7 @@ export const staticNftData = {
       "https://hey-nft.s3.ap-south-1.amazonaws.com/I+Dream+of+Sunny+NFTs/Joker/Spooky.gif",
     perks_description:
       "<div><div>Some amazing utilities you can unlock are:</div> <br /><ul><li>Skydiving experience with Sunny Leone.</li><li>Dinner with Sunny Leone</li><li>Zoom Call with Sunny Leone</li><li>Insta Live with Sunny Leone.</li><li>Shoutout from Sunny Leone on her official social media handles</li><li>And many more such utilities.</li></ul></div>",
-    metadata: "",
+    metadata: '[{"trait_type": "BACKGROUND","value": "Halloween"}]',
     createdAt: "2022-09-05T06:07:42.512Z",
   },
 
@@ -506,12 +512,13 @@ export const staticNftData = {
     },
     name: "Shabaash Mithu: Movie Poster 1",
     description:
-      "The “Shabaash Mithu” NFT is your gatepass to the world of Shabaash Mithu. Every NFT provides access to a private Discord server where participants can win exciting prizes including signed memorabilia, free movie tickets and many more! Celebrate the rise of Mithu and join her community now!",
+      "The “Shabaash Mithu” NFT is your gate pass to the world of Shabaash Mithu. Every NFT provides access to a private Discord server where participants can win exciting prizes including signed memorabilia, free movie tickets and many more! Celebrate the rise of Mithu and join her community now!",
     aws_s3_url:
       "https://hey-nft.s3.ap-south-1.amazonaws.com/Shabaash+Mithu+NFTs+/Movie+Posters/30+x+40_Poster+01_SM_2L+(1).jpg",
     perks_description:
-      "<div>Own a unique NFT from the biopic celebrating the career and life of Indian Cricketing Legend, Mithali Raj, played onscreen by Taapsee Pannu. NFT holders can: <ul><li>Be part of the general discord and converse with hundreds ofother likeminded fans of the film.</li><li>Get a chance to win a bat signed by Mithali Raj, Taapsee Pannu &other members involved in the film directed by Srijit Mukherji.</li><li>Enter contests and raffles for exclusive prizes.</li></ul></div>",
-    metadata: "",
+      "<div>Own a unique NFT from the biopic celebrating the career and life of Indian Cricketing Legend, Mithali Raj, played onscreen by Taapsee Pannu. NFT holders can: <ul><li>Be part of the general discord and converse with hundreds of other like minded fans of the film.</li><li>Get a chance to win a bat signed by Mithali Raj, Taapsee Pannu & other members involved in the film directed by Srijit Mukherji.</li><li>Enter contests and raffles for exclusive prizes.</li></ul></div>",
+    metadata:
+      '[{"trait_type": "BACKGROUND 1","value": "Stadium"}, {"trait_type": "BACKGROUND 2","value": "Sky"}, {"trait_type": "BACKGROUND 3","value": "Stadium Lights"}, {"trait_type": "OUTFIT","value": "Blue Jersey"}, {"trait_type": "TRAIT 1","value": "Hat"}, {"trait_type": "TRAIT 2","value": "Bat"}, {"trait_type": "TRAIT 3","value": "Gloves"}, {"trait_type": "TRAIT 4","value": "Rudraksha"}, {"trait_type": "TRAIT 5","value": "Audience"}]',
     createdAt: "2022-07-15T06:07:42.512Z",
   },
   "shabaash-mithu-2": {
@@ -520,12 +527,13 @@ export const staticNftData = {
     },
     name: "Shabaash Mithu: Movie Poster 2",
     description:
-      "The “Shabaash Mithu” NFT is your gatepass to the world of Shabaash Mithu. Every NFT provides access to a private Discord server where participants can win exciting prizes including signed memorabilia, free movie tickets and many more! Celebrate the rise of Mithu and join her community now!",
+      "The “Shabaash Mithu” NFT is your gate pass to the world of Shabaash Mithu. Every NFT provides access to a private Discord server where participants can win exciting prizes including signed memorabilia, free movie tickets and many more! Celebrate the rise of Mithu and join her community now!",
     aws_s3_url:
       "https://hey-nft.s3.ap-south-1.amazonaws.com/Shabaash+Mithu+NFTs+/Movie+Posters/30x40_Achievements_SM+(1).jpg",
     perks_description:
-      "<div>Own a unique NFT from the biopic celebrating the career and life of Indian Cricketing Legend, Mithali Raj, played onscreen by Taapsee Pannu. NFT holders can: <ul><li>Be part of the general discord and converse with hundreds ofother likeminded fans of the film.</li><li>Get a chance to win a bat signed by Mithali Raj, Taapsee Pannu &other members involved in the film directed by Srijit Mukherji.</li><li>Enter contests and raffles for exclusive prizes.</li></ul></div>",
-    metadata: "",
+      "<div>Own a unique NFT from the biopic celebrating the career and life of Indian Cricketing Legend, Mithali Raj, played onscreen by Taapsee Pannu. NFT holders can: <ul><li>Be part of the general discord and converse with hundreds of other like minded fans of the film.</li><li>Get a chance to win a bat signed by Mithali Raj, Taapsee Pannu & other members involved in the film directed by Srijit Mukherji.</li><li>Enter contests and raffles for exclusive prizes.</li></ul></div>",
+    metadata:
+      '[{"trait_type": "BACKGROUND 1","value": "Stadium"}, {"trait_type": "BACKGROUND 2","value": "Sky"}, {"trait_type": "BACKGROUND 3","value": "Stadium Lights"}, {"trait_type": "OUTFIT","value": "Blue Jersey"}, {"trait_type": "TRAIT 1","value": "Helmet"}, {"trait_type": "TRAIT 2","value": "Bat"}, {"trait_type": "TRAIT 3","value": "Gloves"}, {"trait_type": "TRAIT 4","value": "Mithali 3"}, {"trait_type": "TRAIT 5","value": "Audience"}]',
     createdAt: "2022-07-15T06:07:42.512Z",
   },
   "shabaash-mithu-3": {
@@ -534,12 +542,13 @@ export const staticNftData = {
     },
     name: "Shabaash Mithu: Movie Poster 3",
     description:
-      "The “Shabaash Mithu” NFT is your gatepass to the world of Shabaash Mithu. Every NFT provides access to a private Discord server where participants can win exciting prizes including signed memorabilia, free movie tickets and many more! Celebrate the rise of Mithu and join her community now!",
+      "The “Shabaash Mithu” NFT is your gate pass to the world of Shabaash Mithu. Every NFT provides access to a private Discord server where participants can win exciting prizes including signed memorabilia, free movie tickets and many more! Celebrate the rise of Mithu and join her community now!",
     aws_s3_url:
       "https://hey-nft.s3.ap-south-1.amazonaws.com/Shabaash+Mithu+NFTs+/Movie+Posters/30x40_Big+Face+Cricket_SM-2L+(1).jpg",
     perks_description:
-      "<div>Own a unique NFT from the biopic celebrating the career and life of Indian Cricketing Legend, Mithali Raj, played onscreen by Taapsee Pannu. NFT holders can: <ul><li>Be part of the general discord and converse with hundreds ofother likeminded fans of the film.</li><li>Get a chance to win a bat signed by Mithali Raj, Taapsee Pannu &other members involved in the film directed by Srijit Mukherji.</li><li>Enter contests and raffles for exclusive prizes.</li></ul></div>",
-    metadata: "",
+      "<div>Own a unique NFT from the biopic celebrating the career and life of Indian Cricketing Legend, Mithali Raj, played onscreen by Taapsee Pannu. NFT holders can: <ul><li>Be part of the general discord and converse with hundreds of other like minded fans of the film.</li><li>Get a chance to win a bat signed by Mithali Raj, Taapsee Pannu & other members involved in the film directed by Srijit Mukherji.</li><li>Enter contests and raffles for exclusive prizes.</li></ul></div>",
+    metadata:
+      '[{"trait_type": "BACKGROUND 1","value": "Stadium"}, {"trait_type": "BACKGROUND 2","value": "Sky"}, {"trait_type": "BACKGROUND 3","value": "Stadium Lights"}, {"trait_type": "OUTFIT","value": "Blue Jersey"}, {"trait_type": "TRAIT 1","value": "Hat"}, {"trait_type": "TRAIT 2","value": "Bat"}, {"trait_type": "TRAIT 3","value": "Gloves"}, {"trait_type": "TRAIT 4","value": "Cricket Pad"}, {"trait_type": "TRAIT 5","value": "Audience"}]',
     createdAt: "2022-07-15T06:07:42.512Z",
   },
 
@@ -555,7 +564,8 @@ export const staticNftData = {
       "https://hey-nft.s3.ap-south-1.amazonaws.com/Viral+Fission/Thumbnail+NFT.png",
     perks_description:
       "<ul><li>Exclusive merchandise to be claimed at Collide!</li></ul>",
-    metadata: "",
+    metadata:
+      '[{"trait_type": "Trait 1","value": "Viral Fission"}, {"trait_type": "Trait 2","value": "Collide"}, {"trait_type": "Trait 3","value": "3D"}]',
     createdAt: "2022-09-05T06:07:42.512Z",
   },
 };

@@ -12,6 +12,7 @@ const Home: NextPage = () => {
 
   const staticRoutes = Object.keys(staticNftData);
 
+
   return (
     <Page title="MADverse">
       <Layout>
