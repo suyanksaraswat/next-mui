@@ -5,42 +5,42 @@ import Layout from "../ui-library/layout/Layout";
 
 const data = [
   {
-    image: "/assets/team/caleb.jpg",
+    image: "/assets/team/caleb.png",
     name: "Caleb Franklin",
     designation: "CEO",
   },
   {
-    image: "/assets/team/rohan.jpg",
+    image: "/assets/team/rohan.png",
     name: "Rohan Rajguru",
     designation: "Growth Head",
   },
   {
-    image: "/assets/team/aman.jpg",
+    image: "/assets/team/aman.png",
     name: "Aman Aggarwal",
     designation: "VP Business Development",
   },
   {
-    image: "/assets/team/aryan.jpg",
+    image: "/assets/team/aryan.png",
     name: "Aryan Gautam",
     designation: "Product Manager",
   },
   {
-    image: "/assets/team/monish.jpg",
+    image: "/assets/team/monish.png",
     name: "Monish Bhatt",
     designation: "Head of Influencer Marketing",
   },
   {
-    image: "/assets/team/jheel.jpg",
+    image: "/assets/team/jheel.png",
     name: "Jheel Thakker",
     designation: "Head of Communications",
   },
   {
-    image: "/assets/team/archi.jpg",
+    image: "/assets/team/archi.png",
     name: "Archi Joshi",
     designation: "Talent Manager",
   },
   {
-    image: "/assets/team/muskan.jpg",
+    image: "/assets/team/muskan.png",
     name: "Muskan Agwan",
     designation: "Talent Manager",
   },
@@ -91,6 +91,7 @@ const Team: NextPage = () => {
                       backgroundImage: `url(${res.image})`,
                       backgroundPosition: "center",
                       backgroundRepeat: "no-repeat",
+                      backgroundSize: "contain",
                     }}
                   />
 
