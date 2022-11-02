@@ -26,10 +26,10 @@ export default function WalletModal({ isOpen, closeModal }: WalletModalProps) {
   }, [isConnected, error]);
 
   useEffect(() => {
-    let details = navigator.userAgent;
+    const details = navigator.userAgent;
 
-    let androidRegex = /android/i;
-    let iphoneRegex = /iphone|ipad/i;
+    const androidRegex = /android/i;
+    const iphoneRegex = /iphone|ipad/i;
 
     if (androidRegex.test(details)) {
       setDownloadWalletLink(
