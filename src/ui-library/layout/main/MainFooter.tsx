@@ -20,7 +20,7 @@ import Logo from "../../components/Logo";
 
 const LINKS = [
   {
-    headline: "Minimal",
+    headline: "HeyLabs",
     children: [
       { name: "About us", href: "about" },
       { name: "Team", href: "team" },

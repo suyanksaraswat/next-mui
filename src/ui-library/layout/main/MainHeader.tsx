@@ -18,7 +18,7 @@ import MenuDesktop from "./MenuDesktop";
 import MenuMobile from "./MenuMobile";
 import NextLink from "next/link";
 import navConfig from "./MenuConfig";
-import ConnectWallet from "../../../components/web3/ConnectWallet";
+import { ConnectButton } from "@rainbow-me/rainbowkit";
 
 // ----------------------------------------------------------------------
 
@@ -89,7 +89,7 @@ export default function MainHeader() {
             />
           )}
 
-          <ConnectWallet />
+					<ConnectButton></ConnectButton>
 
           {!isDesktop && (
             <MenuMobile

@@ -1,17 +1,17 @@
 import { Container } from "@mui/material";
 import type { NextPage } from "next";
 import { useRouter } from "next/router";
-import StaticNftDetails from "../../components/StaticNftDetails";
-import Page from "../../ui-library/components/Page";
-import Layout from "../../ui-library/layout/Layout";
-import { staticNftData } from "../../utils/constants";
+import StaticNftDetails from "../../../components/StaticNftDetails";
+import DynamicNftDetails from "../../../components/DynamicNftDetails";
+import Page from "../../../ui-library/components/Page";
+import Layout from "../../../ui-library/layout/Layout";
+import { staticNftData } from "../../../utils/constants";
 
-const Home: NextPage = () => {
+const NftDetails: NextPage = () => {
   const router = useRouter();
   const { nftId } = router.query;
 
   const staticRoutes = Object.keys(staticNftData);
-
 
   return (
     <Page title="HeyLabs">
@@ -20,7 +20,7 @@ const Home: NextPage = () => {
           {nftId && staticRoutes.includes(nftId?.toString()) ? (
             <StaticNftDetails nftId={nftId?.toString() || ""} />
           ) : (
-            <StaticNftDetails nftId={nftId?.toString() || ""} />
+            <DynamicNftDetails nftId={nftId?.toString() || ""} />
           )}
         </Container>
       </Layout>
@@ -28,4 +28,4 @@ const Home: NextPage = () => {
   );
 };
 
-export default Home;
+export default NftDetails;
