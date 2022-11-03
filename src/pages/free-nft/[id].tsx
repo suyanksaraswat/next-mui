@@ -17,7 +17,7 @@ import { useAccount } from "wagmi";
 import { claimFreeNft } from "../../components/api";
 
 const Collection: NextPage = () => {
-  const { data: accountData } = useAccount();
+  const { address } = useAccount();
   const router = useRouter();
   const { id } = router.query;
   const [name, setName] = useState("");
@@ -50,10 +50,10 @@ const Collection: NextPage = () => {
   }, [id]);
 
   useEffect(() => {
-    if (accountData?.address) {
-      setWalletAddress(accountData?.address);
+    if (address) {
+      setWalletAddress(address);
     }
-  }, [accountData]);
+  }, [address]);
 
   return id ? (
     <>
