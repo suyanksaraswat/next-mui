@@ -80,7 +80,6 @@ export default function CryptoPayment({
     const web3 = new Web3(window.ethereum as any);
 
     try {
-      // @ts-ignore
       const signed_msg = await web3.eth.personal.sign(
         "HeyNFT",
         address || "",
@@ -138,7 +137,7 @@ export default function CryptoPayment({
   };
 
   const checkTransactionHashisMined = async (txHash: any) => {
-    await setTimeout(() => {}, 5000);
+    await setTimeout(() => { console.log() }, 5000);
     if ((window as any).ethereum) {
       const provider = new ethers.providers.Web3Provider(
         (window as any).ethereum

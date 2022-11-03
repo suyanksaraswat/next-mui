@@ -76,8 +76,7 @@ function useWidth() {
 
   return (
     // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-    // @ts-ignore not sure what is this
-    keys.reduce((output, key) => {
+    keys.reduce((output: any, key) => {
       // eslint-disable-next-line react-hooks/rules-of-hooks
       const matches = useResponsive("up", key);
 
