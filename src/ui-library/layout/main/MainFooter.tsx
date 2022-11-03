@@ -23,22 +23,22 @@ const LINKS = [
     headline: "Minimal",
     children: [
       { name: "About us", href: "about" },
-      { name: "Contact us", href: "contact" },
-      { name: "FAQs", href: "PATH_PAGE.faqs" },
+      { name: "Team", href: "team" },
+      // { name: "FAQs", href: "PATH_PAGE.faqs" },
     ],
   },
   {
     headline: "Legal",
     children: [
-      { name: "Terms and Condition", href: "#" },
-      { name: "Privacy Policy", href: "#" },
+      { name: "Terms and Condition", href: "https://www.heyheyglobal.com/terms" },
+      { name: "Privacy Policy", href: "https://www.heyheyglobal.com/privacypolicy" },
     ],
   },
   {
     headline: "Contact",
     children: [
-      { name: "support@minimals.cc", href: "#" },
-      { name: "Los Angeles, 359  Hidden Valley Road", href: "#" },
+      { name: "hello@heyheyglobal.com", href: "mailto:hello@heyheyglobal.com" },
+      // { name: "Los Angeles, 359  Hidden Valley Road", href: "#" },
     ],
   },
 ];
@@ -67,9 +67,8 @@ export default function MainFooter() {
 
           <Grid item xs={8} md={3}>
             <Typography variant="body2" sx={{ pr: { md: 5 } }}>
-              The starting point for your next project with Minimal UI Kit,
-              built on the newest version of Material-UI ©, ready to be
-              customized to your style.
+              Join our discord to stay in the loop with our newest feature
+              releases, NFT drops, and tips and tricks for navigating HeyNFT.
             </Typography>
 
             <Stack
@@ -120,7 +119,7 @@ export default function MainFooter() {
             textAlign: { xs: "center", md: "left" },
           }}
         >
-          © 2021. All rights reserved
+          © 2022. All rights reserved
         </Typography>
       </Container>
     </RootStyle>

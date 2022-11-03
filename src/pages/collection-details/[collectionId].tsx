@@ -14,7 +14,7 @@ const Home: NextPage = () => {
   const staticRoutes = Object.keys(staticCollectionData);
 
   return (
-    <Page title="MADverse">
+    <Page title="HeyLabs">
       <Layout>
         <Container sx={{ position: "relative" }}>
           {collectionId && staticRoutes.includes(collectionId?.toString()) ? (

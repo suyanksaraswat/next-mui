@@ -14,7 +14,7 @@ const Home: NextPage = () => {
 
 
   return (
-    <Page title="MADverse">
+    <Page title="HeyLabs">
       <Layout>
         <Container sx={{ position: "relative" }}>
           {nftId && staticRoutes.includes(nftId?.toString()) ? (

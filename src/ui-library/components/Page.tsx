@@ -18,7 +18,7 @@ const Page = forwardRef<HTMLDivElement, Props>(function Page(
   return (
     <>
       <Head>
-        <title>{`${title} | MADverse`}</title>
+        <title>{`${title} | HeyLabs`}</title>
         {meta}
       </Head>
 

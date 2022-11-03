@@ -10,7 +10,7 @@ const Home: NextPage = () => {
   const router = useRouter();
 
   return (
-    <Page title="MADverse">
+    <Page title="HeyLabs">
       <Layout>
         <Container>
           <Hero />

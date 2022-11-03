@@ -48,7 +48,7 @@ const data = [
 
 const Team: NextPage = () => {
   return (
-    <Page title="MADverse">
+    <Page title="Team">
       <Layout>
         <Fade in={true}>
           <Container>

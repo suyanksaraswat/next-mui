@@ -6,7 +6,7 @@ import Layout from "../ui-library/layout/Layout";
 
 const About: NextPage = () => {
   return (
-    <Page title="MADverse">
+    <Page title="About">
       <Layout>
         <Fade in={true}>
           <Container>
@@ -28,7 +28,7 @@ const About: NextPage = () => {
                 customers.
               </Typography>
             </Box>
-            <Grid container spacing={8}>
+            <Grid container spacing={8} mb={10}>
               <Grid item xl={6} lg={6} md={6} sm={12} xs={12}>
                 <Typography variant="h4" sx={{ fontFamily: "Syne", mb: 2 }}>
                   Real World Utilities
@@ -44,12 +44,19 @@ const About: NextPage = () => {
                 </Typography>
               </Grid>
               <Grid item xl={6} lg={6} md={6} sm={12} xs={12}>
-                qwe
+                <Box
+                  sx={{
+                    backgroundImage: `url(/assets/about/real.png)`,
+                    backgroundPosition: "center",
+                    backgroundRepeat: "no-repeat",
+                    backgroundSize: "contain",
+                    height: "100%",
+                    width: "100%",
+                    minHeight: "200px",
+                  }}
+                />
               </Grid>
 
-              <Grid item xl={6} lg={6} md={6} sm={12} xs={12}>
-                qwe
-              </Grid>
               <Grid item xl={6} lg={6} md={6} sm={12} xs={12}>
                 <Typography variant="h4" sx={{ fontFamily: "Syne", mb: 2 }}>
                   Access to VIP Communities
@@ -63,6 +70,19 @@ const About: NextPage = () => {
                   brands, celebrities and fellow fans!
                 </Typography>
               </Grid>
+              <Grid item xl={6} lg={6} md={6} sm={12} xs={12}>
+                <Box
+                  sx={{
+                    backgroundImage: `url(/assets/about/vip.png)`,
+                    backgroundPosition: "center",
+                    backgroundRepeat: "no-repeat",
+                    backgroundSize: "contain",
+                    height: "100%",
+                    width: "100%",
+                    minHeight: "200px",
+                  }}
+                />
+              </Grid>
 
               <Grid item xl={6} lg={6} md={6} sm={12} xs={12}>
                 <Typography variant="h4" sx={{ fontFamily: "Syne", mb: 2 }}>
@@ -75,7 +95,17 @@ const About: NextPage = () => {
                 </Typography>
               </Grid>
               <Grid item xl={6} lg={6} md={6} sm={12} xs={12}>
-                qwe
+                <Box
+                  sx={{
+                    backgroundImage: `url(/assets/about/long.png)`,
+                    backgroundPosition: "center",
+                    backgroundRepeat: "no-repeat",
+                    backgroundSize: "contain",
+                    height: "100%",
+                    width: "100%",
+                    minHeight: "200px",
+                  }}
+                />
               </Grid>
             </Grid>
           </Container>
