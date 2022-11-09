@@ -356,7 +356,7 @@ export default function DynamicCollectionDetails({
                       Items:
                     </Typography>
                     <Typography variant="subtitle1">
-                      {collectionDetails?.nftsLength}
+                      {otherNfts?.length}
                     </Typography>
                   </Box>
 

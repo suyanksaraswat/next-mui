@@ -33,8 +33,6 @@ export default function Layout({ children }: Props) {
       >
         {children}
       </Container>
-
-      <Box sx={{ flexGrow: 1 }} />
       
       <MainFooter />
     </Stack>

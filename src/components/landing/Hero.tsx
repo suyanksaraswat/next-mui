@@ -15,7 +15,7 @@ const data = [
     cover: "/assets/maar-sutteya.png",
     title: "Maar Sutteya",
     subtitle: "Gajendra Verma",
-    link: "/collection-details/maar-sutteya",
+    link: "/collection-details/63517f1b6f535b65bc2dc7fe",
   },
   {
     cover: "/assets/collide.png",
