@@ -12,8 +12,8 @@ const NftDetails: NextPage = () => {
   return (
     <Page title="HeyLabs">
       <Layout>
-        <Container sx={{ position: "relative" }}>
-          <NftCheckout nftId={nftId?.toString() || ""} />
+        <Container sx={{ position: "relative" }}>qweqw
+          {/* <NftCheckout nftId={nftId?.toString() || ""} /> */}
         </Container>
       </Layout>
     </Page>

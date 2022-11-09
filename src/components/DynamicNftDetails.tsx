@@ -192,7 +192,7 @@ export default function DynamicNftDetails({ nftId }: DynamicNftDetailsI) {
                           {nftDetails?.currency}
                         </Typography>
                       </Box>
-                      <Box
+                      {/* <Box
                         display="flex"
                         gap={4}
                         flexDirection={{
@@ -212,7 +212,7 @@ export default function DynamicNftDetails({ nftId }: DynamicNftDetailsI) {
                         >
                           Buy
                         </Button>
-                      </Box>
+                      </Box> */}
                     </Box>
                   ) : (
                     <Box
