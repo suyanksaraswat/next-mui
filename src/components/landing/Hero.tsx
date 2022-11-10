@@ -69,7 +69,7 @@ const Hero = () => {
             },
           }}
         >
-          Discover, collect and sell <span>unique</span> NFTs
+          Discover, collect and sell unique <span>NFTs</span>
         </Typography>
 
         <Typography
@@ -167,7 +167,7 @@ const Card = (props: any) => {
       }}
       onClick={() => router.push(link)}
     >
-      {cover && <Image src={cover} alt="cover" height={300} width={250} />}
+      {cover && <Image src={cover} alt="cover" height={window.innerWidth < 500 ? 220 : 300} width={250} />}
       <Typography
         variant="h6"
         textAlign="center"

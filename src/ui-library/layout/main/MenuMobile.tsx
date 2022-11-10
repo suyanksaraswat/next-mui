@@ -115,7 +115,7 @@ type MenuMobileItemProps = {
 
 function MenuMobileItem({ item, isOpen, onOpen }: MenuMobileItemProps) {
   const { pathname } = useRouter();
-  const { title, path, icon, children } = item;
+  const { title, path, children } = item;
 
   const isActive = pathname === path;
 
@@ -123,7 +123,7 @@ function MenuMobileItem({ item, isOpen, onOpen }: MenuMobileItemProps) {
     return (
       <>
         <ListItemStyle onClick={onOpen}>
-          <ListItemIcon>{icon}</ListItemIcon>
+          {/* <ListItemIcon>{icon}</ListItemIcon> */}
           <ListItemText disableTypography primary={title} />
           {isOpen ? (
             <KeyboardArrowDownIcon sx={{ width: 16, height: 16, ml: 1 }} />
@@ -159,7 +159,7 @@ function MenuMobileItem({ item, isOpen, onOpen }: MenuMobileItemProps) {
     return (
       <Link href={path} target="_blank" rel="noopener" underline="none">
         <ListItemStyle>
-          <ListItemIcon>{icon}</ListItemIcon>
+          {/* <ListItemIcon>{icon}</ListItemIcon> */}
           <ListItemText disableTypography primary={title} />
         </ListItemStyle>
       </Link>
@@ -186,7 +186,7 @@ function MenuMobileItem({ item, isOpen, onOpen }: MenuMobileItemProps) {
           }),
         }}
       >
-        <ListItemIcon>{icon}</ListItemIcon>
+        {/* <ListItemIcon>{icon}</ListItemIcon> */}
         <ListItemText disableTypography primary={title} />
       </ListItemStyle>
     </NextLink>

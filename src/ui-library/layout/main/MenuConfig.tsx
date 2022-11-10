@@ -1,30 +1,24 @@
-// components
-import HomeIcon from '@mui/icons-material/Home';
-import PeopleIcon from '@mui/icons-material/People';
-import InfoIcon from '@mui/icons-material/Info';
-// ----------------------------------------------------------------------
-
-const ICON_SIZE = {
-  width: 22,
-  height: 22,
-};
-
 const menuConfig = [
-  {
-    title: "About us",
-    icon: <InfoIcon {...ICON_SIZE} />,
-    path: "/about",
-  },
-  {
-    title: "Team",
-    icon: <PeopleIcon {...ICON_SIZE} />,
-    path: "/team",
-  },
-  {
-    title: "Shoutouts",
-    icon: <HomeIcon {...ICON_SIZE} />,
-    path: "https://www.heyheyglobal.com/",
-  },
+	{
+		title: "About us",
+		path: "/about",
+	},
+	{
+		title: "Team",
+		path: "/team",
+	},
+	{
+		title: "FAQ",
+		path: "/faq",
+	},
+	{
+		title: "Shoutouts",
+		path: "https://www.heyheyglobal.com/",
+	},
+	{
+		title: "Discord",
+		path: "https://discord.gg/ns7tZTVhBn",
+	},
 ];
 
 export default menuConfig;
